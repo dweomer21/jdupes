@@ -14,7 +14,7 @@ PREFIX = /usr/local
 
 # Uncomment for -B/--dedupe.
 # This can also be enabled at build time: 'make ENABLE_DEDUPE=1'
-#CFLAGS += -DENABLE_DEDUPE
+CFLAGS += -DENABLE_DEDUPE
 
 # Uncomment for low memory usage at the expense of speed and features
 # This can be enabled at build time: 'make LOW_MEMORY=1'
